@@ -2,4 +2,4 @@
 
 This is my first repo, the purpose of this repo is to share my first meme, and my first assignment.
 
-This is the link to my stats220 repo: https://github.com/Holy-mizu/stats220
+Click [here](https://github.com/Holy-mizu/stats220) to go to my stats220 repo.
