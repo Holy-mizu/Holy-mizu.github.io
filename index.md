@@ -20,5 +20,6 @@ image_write(final, "my_meme.png")
 
 #### Why this meme
 
-The reason why I came up with this meme is becasue I don't spend time browsing through memes, and I am very ***bad*** at making memes.
-This meme is **original** because the _fact_ I cannot make any memes inspired me to make the meme, and I've assembled everything thing using R code from above.
+*The reason why I came up with this meme is becasue I don't spend time browsing through memes, and I am very ***bad*** at making memes.
+
+*This meme is **original** because the _fact_ I cannot make any memes inspired me to make the meme, and I've assembled everything thing using R code from above.
