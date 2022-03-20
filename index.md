@@ -1,4 +1,4 @@
-# Assignment summary
+# Stats 220 Assignment
 #### R code for my meme
 
 ```R
