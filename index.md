@@ -1,7 +1,7 @@
 # Assignment summary
 #### R code for my meme
 
-```R
+```{r}
 library(magick)
 
 derp_face <- image_read("https://www.kindpng.com/picc/m/691-6919280_derp-face-png-clipart-transparent-png.png")
