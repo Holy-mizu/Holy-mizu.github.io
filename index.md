@@ -23,7 +23,7 @@ image_write(final, "my_meme.png")
 
 * This meme is **original** because the _fact_ I cannot make any memes inspired me to make the meme, and I've assembled everything thing using R code from above.
 
-* 1 This is an ordered bullet point.
-* 2 This is also an ordered bullet point.
-* 3 This is suppose to be the last ordered bullet point.
-* 4 Sike this is the last one.
+1. This is an ordered bullet point.
+2. This is also an ordered bullet point.
+3. This is suppose to be the last ordered bullet point.
+4. Sike this is the last one.
