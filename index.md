@@ -16,7 +16,6 @@ image_write(final, "my_meme.png")
 ```
 
 ![This is my meme](https://raw.githubusercontent.com/Holy-mizu/stats220/main/my_meme.png)
---------------------------
 
 #### Why this meme
 
