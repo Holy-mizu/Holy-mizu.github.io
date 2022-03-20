@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# Assignment summary
+#### R code for my meme
 
-You can use the [editor on GitHub](https://github.com/Holy-mizu/stats220/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+```R
+library(magick)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+derp_face <- image_read("https://www.kindpng.com/picc/m/691-6919280_derp-face-png-clipart-transparent-png.png")
+blank <- image_blank(860, 100, color = "black") %>% 
+    image_annotate("Me when I try to make memes:", size = 50, gravity = "south", color = "white")
 
-### Markdown
+final <- c(blank, derp_face)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+final <- image_append(final, stack = TRUE)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+image_write(final, "my_meme.png")
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+![This is my meme](https://raw.githubusercontent.com/Holy-mizu/stats220/main/my_meme.png)
+--------------------------
 
-### Jekyll Themes
+#### Why this meme
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Holy-mizu/stats220/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* The reason why I came up with this meme is becasue I don't spend time browsing through memes, and I am very ***bad*** at making memes.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+* This meme is **original** because the _fact_ I cannot make any memes inspired me to make the meme, and I've assembled everything thing using R code from above.
