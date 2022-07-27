@@ -8,6 +8,8 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Ass1"
+      href: assignment1.html
 output:
   html_document:
     theme: cosmo
