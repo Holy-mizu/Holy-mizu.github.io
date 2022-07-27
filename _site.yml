@@ -1,4 +1,4 @@
-name: "my-website"
+name: "Dio-Brando"
 output_dir: "docs"
 exclude: ["docs"]
 navbar:
