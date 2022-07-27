@@ -1,5 +1,0 @@
----
-title: "About This Website"
----
-
-Welcome to my website :D
