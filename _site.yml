@@ -1,8 +1,8 @@
-name: "Dio-Brando"
+name: "The-World"
 output_dir: "docs"
 exclude: ["docs"]
 navbar:
-  title: "My Website"
+  title: "Mein Name ist Dio Brando"
   left:
     - text: "Home"
       href: index.html
